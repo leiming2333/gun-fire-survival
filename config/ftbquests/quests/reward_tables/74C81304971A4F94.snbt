@@ -1,0 +1,14 @@
+{
+	id: "74C81304971A4F94"
+	order_index: 3
+	title: "枪械原材料"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "tac:uncommon_material", count: 5 }
+		{ item: "tac:rare_material", count: 4 }
+		{ item: "tac:epic_material", count: 3 }
+		{ item: "tac:legendary_material", count: 2 }
+		{ item: "tac:ultimate_material" }
+	]
+}

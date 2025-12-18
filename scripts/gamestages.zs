@@ -1,0 +1,23 @@
+import mods.itemstages.ItemStages;
+
+ItemStages.restrict(<item:rpg_tag:mmylzs>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:kuileiwawa>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:shumufazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:huojinfazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:fenliefazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:duqifazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:zhuwangfazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:tantiaofazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:jianzhufazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:penghuofazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:xiyingfazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:pachifazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:jichufazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:jichuzhiliao>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:jichudu>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:jichushui>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:jichuan>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:jichuhuofazhang>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:jichuqifz>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:bzfbzr>,"game_stage1");
+ItemStages.restrict(<item:rpg_tag:mulaiyifazhang>,"game_stage1");

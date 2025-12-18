@@ -1,0 +1,172 @@
+{
+	id: "11C9A8EE55B15FC1"
+	group: ""
+	order_index: 3
+	filename: "11C9A8EE55B15FC1"
+	title: "制作者名单"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "黄焖鸡大米饭雷明"
+			x: -4.5d
+			y: -2.0d
+			subtitle: "整合包制作 任务设计 提示编写 服务端整合"
+			id: "07EA8161C7190D9B"
+			tasks: [{
+				id: "34D05A7386605E4F"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								207451059
+								1623412029
+								-1752949207
+								2033672473
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5NjkyMDgyMzA3MCwKICAicHJvZmlsZUlkIiA6ICIwYzVkNzNiMzYwYzM0ZDNkOTc4NDFlMjk3OTM3NjExOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsZWltaW5nMjMzMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83M2I0MDBjNTJkZTNiMDZlNWQ0ZTEyMjc4M2U2NGQzNWRlMzQwMWRlNmU0MjNiMTc2NGQ2YTlmYWM4Y2Q5MmNkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+									Signature: "sNHcy03y30K+ateehsOp3bDvMU09mSotKFNb7nqj1rZi5n2+1C5Q4ARFUTxDIIf0FSX9w7S9FmyeHIWWuv+lrmyABpNWzDRHjvv68+EuuDsEw+cnst7bvlNEzvLdKZPl2GrElwS7pFNwc035LwWLUpPHoLBQUgTEBlUfHwV0/nyg24uT1VYMVQILaMFNKulAMney+GhVaZpAdUnET6DdPcBVsXh1Cb/pBUhYw8qOhsNS+eqaeQgh2o5TieCC/EZvQtD0wUA/8M7FuEd6VNGbd6FV9akdro7JW6SmjnVmA3FZm+NFmQNENdLscWw00ci8GNDYhlVyBHIhM/xy1ZnsQMV82bLj7LZvX/vrGq7jvMUFLHDCgFs2NCJR4I/AUP4be8/+ooaNdQYNU9RYFVJqCXb98FS3uRE5s51bM6mXAwOlQ6s3IlImneutyDmUCzxkyWJazUHXKz/INytquR9UCoT2kmS6tPp+lJZyT6WDVrxqDgvR9R6+bAIQTbVFMx+IxYSPkOICXYxuq7n/yG3uFYubgp16nYt20phqB1HOlRFVD6qJlJxqBjHxMO1eLy2HLsRakSxenUsrk7rRyoCzv81JtUiVdpEYnF9FDGUjpQUVZIkDL8/qnub/8JZdIu3+sJ0hp1pYK8D22oWtRaBBZ+OLD5wYntIQVn4h/DOkDjg="
+								}]
+							}
+							Name: "leiming2333"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Jerry_Wang"
+			x: -4.5d
+			y: -5.0d
+			subtitle: "主菜单 logo 任务设计 程序"
+			id: "7C8AFAD1BC52F258"
+			tasks: [{
+				id: "2A6C4DF1D4399623"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-136294467
+								-1204597020
+								-2098265269
+								17904722
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NjgxMjM2NDgwOCwKICAicHJvZmlsZUlkIiA6ICJmN2UwNGZiZGI4MzM0ZWU0ODJlZjAzNGIwMTExMzQ1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZXJyeV9XYW5nNTAzOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ODA4MDRkNzAxYmU0NjVhZGI5MDk5MmQ1NjFlY2EyYmVkOWUyMWY3ZDJhN2RiNmE0OWI0ZmM1YjRlZjQyNGM0IgogICAgfQogIH0KfQ=="
+									Signature: "l8opglbjQUJ/ZL/QgrV/Fr2Q6n5ps4YI2gLNuznpWBIfAS8NtJkOBN6ciiradkpcletVdeyEpBPErZu+TFzs4wyLmHe03c9zsKOaRrXMD4RAqINYmU382CQv1B8sQHqZoSzSBc5xU8Y9IjwoXWn7D7CbcUdkK7VZQgHdAjz3vf2/+WiTdVnTWz4sawGUZUI82PEnY8vuUhGcjpf3UWz2bAuX8InpMQGHLdMn7yi8EzJ9aNCnxk4XWPC5SLSoFylSh8p4q0Jf4VN9YeI0/4xTToj1b3q450Aajq4lXahoZS2kGICWjVl8URBaTWM2i51hrbrx7jq/FF0xAscKBgKZWgX7E4Z5fpW1rWaghyuI+wUe+iwDKRQzhHpdI1x0Ylb3NtidOgH33O7kVyuwQDdHWH0Jfrlv2ufpQ3ZxYWlg6Uc8i71xyVC6tExDk0FhsWB0xfN7nGyGvcW0+Rci1aZpqCraKnX9E9FNGm7qRWuDwok+ueVpVldgDioxReG5L0fuRuUXDVHzTOWq2o1u3jGC8FI1IZLm4uZNpqrRYDZcLK/VcNz68OGE7XlzAmLUGZtNsnvHNghHlfJGJkVNS+5n057icJwUbI4oxRmoTEaksY4iGVQp4+iyftBlmeKqxc8Tb0hiJzTl2NRVwSKfQBMfFYIDX2Zf1UK2Xlkqg2gZHlg="
+								}]
+							}
+							Name: "Jerry_Wang5038"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "代号暗隐杀手"
+			x: -4.5d
+			y: 1.0d
+			subtitle: "任务设计"
+			id: "4512C3EBA7D1E4A9"
+			tasks: [{
+				id: "7CFCA27500620F62"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1639459487
+								-635941573
+								-1426399440
+								462783779
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NzA3MzUyNTYyMCwKICAicHJvZmlsZUlkIiA6ICI2MWI4MmE5ZmRhMTg0ZDNiYWFmYWRmMzAxYjk1ODUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJESEFZU1MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY0ZGM2M2FjOThiMGQ2MWViY2U0NTU2NDk2MTJkNDljYWU4OTVkNWE5MWVhMTVmYzM2NGExNmZkOGQyODk0YSIKICAgIH0KICB9Cn0="
+									Signature: "x0W6tSv/sOXyhkwYwLrWa+KCk57EUoTKPXzfCj1w4akMQw9ser9ySD/Xht9jstypWswlrzSGfndMMCa2dltmCS2q8qatELieKLMaAk1MFqb+ZHNG227bXWbB4kKnZ/9/IIK8FIiXaR7/+HMcXIffnGeXjJEUBWiR0y40oufr7ltB7xsKHgrGQNY+FikF7x6tkq7WZzN3cRDf2D1C+dzaqWIZvzb5nQ1nhcxCfMW40Sv5m2WWzNsI+ZT4MCs+xdVJnGkuF9GzVWvNNR6zja4IQhSuyCzam2U47UKhRNaQMrqtHnvXx1GfmnaViYXhJhjwHJraxcse6iub2YYfyGTlxFM+jp1Z2EGZOpBhnJgjP76BjxwyZiMHb6qTGiURnrJnmtjuwSefYQPy+p50Hx8xikGfTrwj+Y1ylA09Apj3X9w5v4E7ZnsODgPzEg3V7CIIRv5MF8LpE5HFx8YEvCTQznhp+n7ayP9TC3RcuRi8z0iOA7efPBidf1DQTFHVP5kT3/6nGHLoKuilOZy1Oi7WH7ZJzwl7xzTWk6/HgRjIhKqId2bDC6GvyhNDAaYwie+oUDIdhfuH68mipZzBE7f2FrjZvGayUL24PDJkBRvfpATNr7Kpejm9+H5wfLRtqob8lYMpq3bV0WTXUQYPwaW1XGY80Npu4tn3QEBdVPUmQ8Q="
+								}]
+							}
+							Name: "DHAYSS"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "ZCZ黑金天鹅"
+			x: -1.5d
+			y: -2.0d
+			subtitle: "服务端整理"
+			id: "614187A415D9EEC9"
+			tasks: [{
+				id: "71B2DDC75433651A"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1783907568
+								-833401986
+								-1956999755
+								1541343345
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5NjkyMjk2OTAxMywKICAicHJvZmlsZUlkIiA6ICI5NWFiYmIxMGNlNTM0YjdlOGI1YThkYjU1YmRmMDg3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6enpjY2N6enoiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZhNDg1OWM3Yjc2OWQzNzVmOTZlZWUzZTU5MTg0MjM5YjQ1NTdkNWMwMGVkNWQzN2NhZWQxY2YwNGZlZjU4NSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+									Signature: "PPkiIcdSE5VrLM1nbh0QisRPE6hCoQFCkg2fIGucOqrZqUEN0GjVDUn0SFCKIWHIkbU1thB38LXKYBCUpX82jM2lP462EFOZjsSW9tAJGcv1WpQN/YCHfHwrtEo9D0tAooX3y1iBjD3+YaSiOCqk8sP0ygzPEgwgLBcY9ycgqs65kgQECEhMl39utmJiAdfaB5Namtg38Nr3FBWbKrT9k656CMjdvzUqm/Xl+r25gT8Yz9aCDlm3j0WgSbf91Zr0JwTReRslvCilbNwhTP1exTTKVfIDTv1VN43jAiGKkODV+opCf2c8DCrryIDTpNdw2Jy3sLO3Mj5EeoPRESXtr+4fFRQQQEpur+Suos4jiU/0OcW3rhCIEXmH2ZvWNrpvcZZMEQnI8aHXxnw3AsVl19rdZw/hniKdlzkiTmfT3uOX79Flu4qnG2jJ9cDKTxJNkqrh/o/f1VGvqr4Q32gll+CLcjmc6Qwb4YsiiOZQ6GgGnS3xvIdLyypcsYnsklPHHlrIamck7HIxujOsIoRk3atwGuMUVf7f/RywxMneCL++7LlYwP77XKcsNLIxVzo0VWHFoY9II+EcKYGI/1695ssGwjiccKljFMz7u2/sPPv+CeXlwhUfXNisHZSYknKHFpM9UOuZXimoZBDQWVYecJjihNq/A7XDy/jDnbKMOFw="
+								}]
+							}
+							Name: "zzzccczzz"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "夏新QWQ"
+			x: -7.5d
+			y: -2.0d
+			subtitle: "数据包制作 技术指导"
+			id: "0594C3D3D1765A1B"
+			tasks: [{
+				id: "4BE18BBBD29624FC"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1483813264
+								-2072885720
+								-1353625122
+								1300846825
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5NjkyMzk3NDYyMiwKICAicHJvZmlsZUlkIiA6ICJhNzhlY2U3MDg0NzI0NjI4YWY1MTUxZGU0ZDg5NThlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJYaWFfWGluXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84OWVjZDZkMWRkMGVhNzUwNmYyNDdkMmRlNGJmNzEyYTFmN2NlZWMxOTk1NGVkYThkNTAxNmFlZGEyMjIyNGVmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+									Signature: "SZCwCL1Z3Lq3ruKuJOix2AONAjBxguF6j9Zm6w3Gq1AEq+QPbEKcVNr4S3qVVkkbjPDi2hi6Cvktld4vnvve2uWXbhwMwa9/o2AvDXTlk7IrgZudsKPS9u+bO5EZb1fVmWQJXMgWW7ZEmWvwcillFeQmzsi/y98rFpa6CQ7LmC7P9y0XDbQzbqITShLB+5MSUZINZeqN1J0pLDwy7cLtkajWy0gIu2bABwuj4SpizRsPpq5zFpaMq+0rzgGfmeWNtawniirH+AWCzVxqZImN4RCGkiRRlAoL6nboiac86zocp5ACj/Bdx6A5t1eeOgfOw3weNdFmuDFxwak10XwQNk9sGZeuMinOtVav4nKRnMIsBMrMD6INXU53RQOGyN5iQi5seyK5sCxiyy+70SfS0hkop+0jY/41sclOq5r/V9hRBDME6PPjsXmVLqWu/4nl+oGkf4wi0oy2L5B5ilJIgJoVUawi4dXcIFnqHsu8Q59ndl8Gzi9s28IAvAtzCE7DHtakzzXJhYwjZBO/jLshAKsbXmkMayhh1ACNbAmDXmpV3dRuz2svX9ubSZ8IG5ZM3uXP8T+qhP4glygMannP5prc5xZhVpCdM58LBFbBJ1fafNydtmYGWM+97LiNNRHbkBa9QwklNMSgOPCMtOZCIGMwnoh74G/3r2BcC5HaM90="
+								}]
+							}
+							Name: "Xia_Xin_"
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

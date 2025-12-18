@@ -1,0 +1,3392 @@
+{
+	id: "490B63741F27B103"
+	group: ""
+	order_index: 2
+	filename: "490B63741F27B103"
+	title: "任务线"
+	icon: "tac:workbench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "大人，时代变了"
+			x: -8.5d
+			y: 0.5d
+			subtitle: "枪，更多的枪"
+			dependencies: ["5508ED28DCB96548"]
+			id: "3CBDFB3900EB89D0"
+			tasks: [{
+				id: "449790116434213B"
+				type: "item"
+				item: "tac:workbench"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "73CDC76D9F6539EF"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			subtitle: "保卫你的生命"
+			dependencies: ["3CBDFB3900EB89D0"]
+			id: "3D5F3037D441FA2F"
+			tasks: [{
+				id: "3DDC01849E67B857"
+				type: "checkmark"
+				title: "枪械"
+			}]
+			rewards: [{
+				id: "7B5C93B107ABCDC0"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			subtitle: "发射出去击杀敌人"
+			dependencies: ["3CBDFB3900EB89D0"]
+			id: "1014D4F3DCDDC68E"
+			tasks: [{
+				id: "65B0F048270B86AF"
+				type: "checkmark"
+				title: "子弹"
+			}]
+			rewards: [{
+				id: "7E6AC6FCE929E627"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			subtitle: "保护自己"
+			dependencies: ["3CBDFB3900EB89D0"]
+			id: "6B4E4C98AF390E29"
+			tasks: [{
+				id: "60E1D5D642E9C8FE"
+				type: "checkmark"
+				title: "防具"
+			}]
+			rewards: [{
+				id: "62DEC0E28E26D6D7"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "1AD2480B3AF847AA"
+			tasks: [{
+				id: "048BC15C8AF1013C"
+				type: "item"
+				item: {
+					id: "tac:m1911"
+					Count: 1b
+					tag: {
+						AmmoCount: 7
+					}
+				}
+			}]
+			rewards: [{
+				id: "07D71C0F7CCA205E"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "14F0BD70556C34DC"
+			tasks: [{
+				id: "34B0BFF10F5F8AEF"
+				type: "item"
+				item: {
+					id: "tac:glock_17"
+					Count: 1b
+					tag: {
+						AmmoCount: 17
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D5A74696CED9C04"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "06FA46596CA1CBE0"
+			tasks: [{
+				id: "73E1BDB4BFECC26D"
+				type: "item"
+				item: {
+					id: "tac:sti2011"
+					Count: 1b
+					tag: {
+						AmmoCount: 9
+					}
+				}
+			}]
+			rewards: [{
+				id: "49B80579A92401D7"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "724886101BC4993C"
+			tasks: [{
+				id: "696264454508C688"
+				type: "item"
+				item: {
+					id: "tac:m92fs"
+					Count: 1b
+					tag: {
+						AmmoCount: 15
+					}
+				}
+			}]
+			rewards: [{
+				id: "703553964F3473CC"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "2102383F1A5868D6"
+			tasks: [{
+				id: "30E4AEF1F7EA5E2A"
+				type: "item"
+				item: {
+					id: "tac:deagle_357"
+					Count: 1b
+					tag: {
+						AmmoCount: 7
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FB3C3B188428B13"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "53CAEF13A8BD61A1"
+			tasks: [{
+				id: "24B808DA37A1891B"
+				type: "item"
+				item: {
+					id: "tac:glock_18"
+					Count: 1b
+					tag: {
+						AmmoCount: 17
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BF4B83EFBEAEB7C"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "409155CC1AFF711A"
+			tasks: [{
+				id: "4A380C76F23C425C"
+				type: "item"
+				item: {
+					id: "tac:cz75"
+					Count: 1b
+					tag: {
+						AmmoCount: 16
+					}
+				}
+			}]
+			rewards: [{
+				id: "40D035A042DB2926"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "66CD65E0C8DE7932"
+			tasks: [{
+				id: "2673D8F59DF88036"
+				type: "item"
+				item: {
+					id: "tac:cz75_auto"
+					Count: 1b
+					tag: {
+						AmmoCount: 16
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E55FF8C72390774"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "7ADB27A2B65A1969"
+			tasks: [{
+				id: "38B31CD9446A4799"
+				type: "item"
+				item: {
+					id: "tac:mk23"
+					Count: 1b
+					tag: {
+						AmmoCount: 12
+					}
+				}
+			}]
+			rewards: [{
+				id: "42E05DE052C37553"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "156FD6B12F27905A"
+			tasks: [{
+				id: "1D623BD28D47F961"
+				type: "item"
+				item: {
+					id: "tac:tti_g34"
+					Count: 1b
+					tag: {
+						AmmoCount: 23
+					}
+				}
+			}]
+			rewards: [{
+				id: "70A915E626B619F6"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "033CFAFBDE18BD41"
+			tasks: [{
+				id: "65AE4440E5B3F36F"
+				type: "item"
+				item: {
+					id: "tac:timeless_50"
+					Count: 1b
+					tag: {
+						AmmoCount: 7
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C67794E93308281"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "153965AA0298FD13"
+			tasks: [{
+				id: "6A518C9E62780E94"
+				type: "item"
+				item: {
+					id: "tac:vector45"
+					Count: 1b
+					tag: {
+						AmmoCount: 19
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C113D56EA0715E8"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "6146673501E8BAC2"
+			tasks: [{
+				id: "0D24DA6025EC7D3E"
+				type: "item"
+				item: {
+					id: "tac:micro_uzi"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FDF2F8C898E50D8"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "551E0A7B7CC26BDC"
+			tasks: [{
+				id: "5E2F05323DB2544F"
+				type: "item"
+				item: {
+					id: "tac:hk_mp5a5"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "47848D1A209681D1"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "53DF473854F3E39A"
+			tasks: [{
+				id: "48AD6BDB634C13E1"
+				type: "item"
+				item: {
+					id: "tac:mp7"
+					Count: 1b
+					tag: {
+						AmmoCount: 40
+					}
+				}
+			}]
+			rewards: [{
+				id: "260797E5CD9D17D6"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "3813E41C90F8B559"
+			tasks: [{
+				id: "246EF20193817799"
+				type: "item"
+				item: {
+					id: "tac:mp9"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "620B137E02BED6F4"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "407B3586BA55337A"
+			tasks: [{
+				id: "48CFF2A29DEB7BB4"
+				type: "item"
+				item: {
+					id: "tac:udp_9"
+					Count: 1b
+					tag: {
+						AmmoCount: 22
+					}
+				}
+			}]
+			rewards: [{
+				id: "26EEA85A417CB30A"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "50DA5DCE64EE5585"
+			tasks: [{
+				id: "236B79219DF7A616"
+				type: "item"
+				item: {
+					id: "tac:p90"
+					Count: 1b
+					tag: {
+						AmmoCount: 50
+					}
+				}
+			}]
+			rewards: [{
+				id: "168F8A7255A50CD8"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "56B4FC6948C2158E"
+			tasks: [{
+				id: "46E9B89186D4A33C"
+				type: "item"
+				item: {
+					id: "tac:uzi"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "369BFBADEAED9D68"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "2550CF657B396BB0"
+			tasks: [{
+				id: "018703F23CDD50D8"
+				type: "item"
+				item: {
+					id: "tac:ak47"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A5A755DC0885C87"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "5887B964CB9539FF"
+			tasks: [{
+				id: "4BCDAF951719CBE5"
+				type: "item"
+				item: {
+					id: "tac:m4"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "45278C590060F81B"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -5.0d
+			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "2967DCAA4670C2B6"
+			tasks: [{
+				id: "1F386DE51FD4875B"
+				type: "item"
+				item: {
+					id: "tac:qbz_95"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C3673522CAB1917"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "63082E87B0C9E10D"
+			tasks: [{
+				id: "6C0B78DCC303C107"
+				type: "item"
+				item: {
+					id: "tac:type81_x"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "22246CD4559D7244"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "267BCB39A22F467A"
+			tasks: [{
+				id: "2CB4747CBAC52545"
+				type: "item"
+				item: {
+					id: "tac:m1a1_smg"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D9A58D495D35A4E"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "6578E1B44035ED70"
+			tasks: [{
+				id: "71CE33617ECF3D54"
+				type: "item"
+				item: {
+					id: "tac:hk416_a5"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "23ADA5B2A2689E59"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "7C808EDBC9507FE3"
+			tasks: [{
+				id: "08397C11A3ABC8F5"
+				type: "item"
+				item: {
+					id: "tac:fn_fal"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "69439EF41C3F0BC9"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "4318BFC66D56D293"
+			tasks: [{
+				id: "12C0748A336587F9"
+				type: "item"
+				item: {
+					id: "tac:sig_mcx_spear"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CAA6DE1DA727C28"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "5E0D847E579041C7"
+			tasks: [{
+				id: "39B3EA0769BC07DA"
+				type: "item"
+				item: {
+					id: "tac:qbz_191"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "130DF93FFB619B15"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "279E5D83F5405131"
+			tasks: [{
+				id: "3F21ACE4C024A1A5"
+				type: "item"
+				item: {
+					id: "tac:mk18_mod1"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D97292D0C24A8E0"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "1CB0BC9CB2516985"
+			tasks: [{
+				id: "25EF362A91546A90"
+				type: "item"
+				item: {
+					id: "tac:m16a4"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EA0484C0A8C7933"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "62ECE564919143AA"
+			tasks: [{
+				id: "0F8410AB3409F1C0"
+				type: "item"
+				item: {
+					id: "tac:scar_h"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "210BAD9E520F4BF4"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "47866DE56AE31721"
+			tasks: [{
+				id: "3B48F8DED7022A6D"
+				type: "item"
+				item: {
+					id: "tac:scar_l"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "14A7F7912D743ADC"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "055DBDA2C4E10763"
+			tasks: [{
+				id: "2F8DCB5177B94729"
+				type: "item"
+				item: {
+					id: "tac:mk47"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A47AE9EE136E3E7"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "3C3B747F5C9ABAD6"
+			tasks: [{
+				id: "645F21F06B042B96"
+				type: "item"
+				item: {
+					id: "tac:spr15"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "520D91183D1D58E1"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -17.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "358106A3B761CEB5"
+			tasks: [{
+				id: "11F7AC4AAA6AAB09"
+				type: "item"
+				item: {
+					id: "tac:mk18_mod1"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+			rewards: [{
+				id: "45477149F105049E"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -16.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "076E64A1058D80EB"
+			tasks: [{
+				id: "61D8D5785A5D21AB"
+				type: "item"
+				item: {
+					id: "tac:hk_g3"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "53D45F869FBA9B2D"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "128BCAB68BBFCFDD"
+			tasks: [{
+				id: "79DD4DA9040824B8"
+				type: "item"
+				item: {
+					id: "tac:m24"
+					Count: 1b
+					tag: {
+						AmmoCount: 5
+					}
+				}
+			}]
+			rewards: [{
+				id: "599862FE35E0D622"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "5AB061E98547168E"
+			tasks: [{
+				id: "3AB557F3316E074E"
+				type: "item"
+				item: {
+					id: "tac:m82a2"
+					Count: 1b
+					tag: {
+						AmmoCount: 5
+					}
+				}
+			}]
+			rewards: [{
+				id: "7867A8A68A0EE21C"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "7651B67EE566CC6E"
+			tasks: [{
+				id: "5764F35BC4051F27"
+				type: "item"
+				item: {
+					id: "tac:ai_awp"
+					Count: 1b
+					tag: {
+						AmmoCount: 5
+					}
+				}
+			}]
+			rewards: [{
+				id: "72D35B937298B075"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "1BF176CBDCD52D6B"
+			tasks: [{
+				id: "546F3B0E3ACD70FE"
+				type: "item"
+				item: {
+					id: "tac:sks_tactical"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+			rewards: [{
+				id: "63CD7A2040E6459A"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "439BB939A739B03E"
+			tasks: [{
+				id: "3031AB1FE9A770EF"
+				type: "item"
+				item: {
+					id: "tac:mrad"
+					Count: 1b
+					tag: {
+						AmmoCount: 5
+					}
+				}
+			}]
+			rewards: [{
+				id: "2317D567D3E6EBC3"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "1A1AEC8A8E33F2DD"
+			tasks: [{
+				id: "222853E8DDF22ECA"
+				type: "item"
+				item: {
+					id: "tac:aa_12"
+					Count: 1b
+					tag: {
+						AmmoCount: 8
+					}
+				}
+			}]
+			rewards: [{
+				id: "59443D54CAFE1D62"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "5B38F4C769AF5EFC"
+			tasks: [{
+				id: "16C53B43FD0D2082"
+				type: "item"
+				item: {
+					id: "tac:m870_classic"
+					Count: 1b
+					tag: {
+						AmmoCount: 6
+					}
+				}
+			}]
+			rewards: [{
+				id: "25ED2014A4604242"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "0F65CA32A8DEAB46"
+			tasks: [{
+				id: "0233034A0870D233"
+				type: "item"
+				item: {
+					id: "tac:m1014"
+					Count: 1b
+					tag: {
+						AmmoCount: 8
+					}
+				}
+			}]
+			rewards: [{
+				id: "13F1E78479C60247"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "57DE37AF371D8344"
+			tasks: [{
+				id: "29AB0722EE43EA3B"
+				type: "item"
+				item: {
+					id: "tac:scar_mk20"
+					Count: 1b
+					tag: {
+						AmmoCount: 10
+					}
+				}
+			}]
+			rewards: [{
+				id: "74EA7556C88FB242"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "2F6B0914712A0333"
+			tasks: [{
+				id: "12388034136BCE7A"
+				type: "item"
+				item: {
+					id: "tac:rpk"
+					Count: 1b
+					tag: {
+						AmmoCount: 40
+					}
+				}
+			}]
+			rewards: [{
+				id: "672E09D14DFE2690"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "7AA2DA5CCEBCB7BE"
+			tasks: [{
+				id: "12C4A3BFA596AB71"
+				type: "item"
+				item: {
+					id: "tac:m249"
+					Count: 1b
+					tag: {
+						AmmoCount: 80
+					}
+				}
+			}]
+			rewards: [{
+				id: "55E0529E2BF46659"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "6A77D6A58390F79F"
+			tasks: [{
+				id: "2618F444948613F1"
+				type: "item"
+				item: {
+					id: "tac:m60"
+					Count: 1b
+					tag: {
+						AmmoCount: 70
+					}
+				}
+			}]
+			rewards: [{
+				id: "349B24D7BC4ECEA1"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "007BD7B2EF7A9E11"
+			tasks: [{
+				id: "5757A589E77D072D"
+				type: "item"
+				item: {
+					id: "tac:dp28"
+					Count: 1b
+					tag: {
+						AmmoCount: 50
+					}
+				}
+			}]
+			rewards: [{
+				id: "4314739C7D4E77C5"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "46AFF102028CBBF2"
+			tasks: [{
+				id: "3E4E3363826F37EA"
+				type: "item"
+				item: {
+					id: "tac:rpg7"
+					Count: 1b
+					tag: {
+						AmmoCount: 1
+					}
+				}
+			}]
+			rewards: [{
+				id: "7406034EDB56C8AA"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "4C291B3AA0BA785F"
+			tasks: [{
+				id: "0F71CB6DAF2DD6D7"
+				type: "item"
+				item: "tac:light_grenade"
+			}]
+			rewards: [{
+				id: "0F0EEC3C35B7E48C"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "19DDBC6907088008"
+			tasks: [{
+				id: "22BB66A7E7172815"
+				type: "item"
+				item: "tac:baseball_grenade"
+			}]
+			rewards: [{
+				id: "2864CBD80395FA75"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -16.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "1141E0ACB62997C9"
+			tasks: [{
+				id: "46789FFE2B093A70"
+				type: "item"
+				item: "tac:b_magnum"
+			}]
+			rewards: [{
+				id: "428863716598663E"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -15.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "60443582B1643624"
+			tasks: [{
+				id: "1EDF6A5AE77DB00E"
+				type: "item"
+				item: "tac:round45"
+			}]
+			rewards: [{
+				id: "5E80601B51A0F7E9"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "7D0A753F12B882D2"
+			tasks: [{
+				id: "13F6D3705045275D"
+				type: "item"
+				item: "tac:ae50"
+			}]
+			rewards: [{
+				id: "75EC9E9655EDFACB"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "323AB1AA3EEBD582"
+			tasks: [{
+				id: "1962D722FFF64FAB"
+				type: "item"
+				item: "tac:win_30-30"
+			}]
+			rewards: [{
+				id: "4945C74B17915214"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "49F41968335E7674"
+			tasks: [{
+				id: "7050A4BEC2424488"
+				type: "item"
+				item: "tac:bullet_308"
+			}]
+			rewards: [{
+				id: "34CCAB680F9524A7"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -17.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "751F6B7EA001AB98"
+			tasks: [{
+				id: "764C5856F40E9FBE"
+				type: "item"
+				item: "tac:nato_556_bullet"
+			}]
+			rewards: [{
+				id: "6BD0C0E928C9AAC3"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -18.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "01340898DD36E498"
+			tasks: [{
+				id: "76719532A7BDECBD"
+				type: "item"
+				item: "tac:9mm_round"
+			}]
+			rewards: [{
+				id: "16CC9257890C773B"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "613BFA6318F8DB65"
+			tasks: [{
+				id: "7E3D3BE2E04302B3"
+				type: "item"
+				item: "tac:58x42"
+			}]
+			rewards: [{
+				id: "7C275D97C5E34D45"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -20.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "3CCBCF46B4D555DE"
+			tasks: [{
+				id: "3EF72D3868030C8F"
+				type: "item"
+				item: "tac:762x25"
+			}]
+			rewards: [{
+				id: "4E7B5CDC9F7BF7C3"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -21.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "555645A7F11C29CE"
+			tasks: [{
+				id: "1907ADB4096BDC8A"
+				type: "item"
+				item: "tac:762x54"
+			}]
+			rewards: [{
+				id: "4A54590E71CB1BEE"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -22.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "270718942899F3E8"
+			tasks: [{
+				id: "6DC82F3B7C46DDA4"
+				type: "item"
+				item: "tac:762x39"
+			}]
+			rewards: [{
+				id: "5635B2908AC56BB7"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -23.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "1987A64662A360D0"
+			tasks: [{
+				id: "399B996534E2DEFA"
+				type: "item"
+				item: "tac:50bmg"
+			}]
+			rewards: [{
+				id: "3D84F3219559D91A"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -24.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "3BB49AFC26AF8B33"
+			tasks: [{
+				id: "09CF4EB277C7718E"
+				type: "item"
+				item: "tac:lapua338"
+			}]
+			rewards: [{
+				id: "6D2F7A434607FF33"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1014D4F3DCDDC68E"]
+			hide: true
+			id: "230006B95E3F0924"
+			tasks: [{
+				id: "75E84A7E33792A2B"
+				type: "item"
+				item: "tac:bullet68"
+			}]
+			rewards: [{
+				id: "311DA1C357858996"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 11.0d
+			subtitle: "不死1.0"
+			id: "74352720863A15B3"
+			tasks: [{
+				id: "353D1A214BB47769"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 100
+			}]
+			rewards: [
+				{
+					id: "3B507D8EFE185484"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "5A2771F6119067D8"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 11.0d
+			subtitle: "不死2.0"
+			dependencies: ["74352720863A15B3"]
+			id: "6A9F9CD01383EB3D"
+			tasks: [{
+				id: "371FE36528B26DF0"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 500
+			}]
+			rewards: [
+				{
+					id: "24E27630FFB4AC48"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "045E6DCBA8316D70"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 11.0d
+			subtitle: "不死3.0"
+			dependencies: ["6A9F9CD01383EB3D"]
+			id: "19FA099C84E28A59"
+			tasks: [{
+				id: "5E4EE61F50265616"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 1000
+			}]
+			rewards: [
+				{
+					id: "1508421F06160A1E"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "268A736042783DE5"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["3CBDFB3900EB89D0"]
+			id: "22377A90E0A417CB"
+			tasks: [{
+				id: "05F56D4BF36497BD"
+				type: "checkmark"
+				title: "配件"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "457EA51C2E2FC873"
+			tasks: [{
+				id: "21B270B54A4DCF70"
+				type: "item"
+				item: "tac:old_4x_scope"
+			}]
+			rewards: [{
+				id: "05B8FC8A322BDF50"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "253ED1D1C47E837A"
+			tasks: [{
+				id: "58744743D741FEA6"
+				type: "item"
+				item: "tac:elcan_14x"
+			}]
+			rewards: [{
+				id: "5D72E341DD4231E9"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "6D1FD0882AF07DAD"
+			tasks: [{
+				id: "3C4C9A9D8D8B5E45"
+				type: "item"
+				item: "tac:qmk152"
+			}]
+			rewards: [{
+				id: "5B4B3EA12926D1C5"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "5ACF6D4E2346C3D8"
+			tasks: [{
+				id: "67B224541CE449D5"
+				type: "item"
+				item: "tac:acog_4x_scope"
+			}]
+			rewards: [{
+				id: "3B6D77A4B89A8C5E"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "34983F34B1F30C3E"
+			tasks: [{
+				id: "1457C339AA659E2E"
+				type: "item"
+				item: "tac:eotech_n"
+			}]
+			rewards: [{
+				id: "630BF5EAD962AFF1"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "27B74693C4EADA45"
+			tasks: [{
+				id: "056CE060B7AAAE3B"
+				type: "item"
+				item: "tac:aimpoint_t2"
+			}]
+			rewards: [{
+				id: "4716806BAB35259D"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "5D5144119EBC3717"
+			tasks: [{
+				id: "72B7B367977E2227"
+				type: "item"
+				item: "tac:mini_dot"
+			}]
+			rewards: [{
+				id: "5DB5CB997778B924"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "64681B93BE9C5843"
+			tasks: [{
+				id: "7CE7F0A3114DAE4F"
+				type: "item"
+				item: "tac:vortex_uh_1"
+			}]
+			rewards: [{
+				id: "1F2BCF1D844F17F0"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "7EE174DBF68AD06A"
+			tasks: [{
+				id: "5F0E2DFA4E1148E6"
+				type: "item"
+				item: "tac:aimpoint_t1"
+			}]
+			rewards: [{
+				id: "3D372A7B365B9ACB"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "44FBB79D128BF97C"
+			tasks: [{
+				id: "5403DB6F9C80DFEA"
+				type: "item"
+				item: "tac:sro_dot"
+			}]
+			rewards: [{
+				id: "2F0045B5F0D737F2"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "0F5BBC192F2EDEDD"
+			tasks: [{
+				id: "2D9286CF53B799D4"
+				type: "item"
+				item: "tac:coyote_sight"
+			}]
+			rewards: [{
+				id: "2B4AE294EE95043E"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "15AE7453B80FC64E"
+			tasks: [{
+				id: "677A31579934929E"
+				type: "item"
+				item: "tac:srs_red_dot"
+			}]
+			rewards: [{
+				id: "50F28DA3D75EE96E"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "3774EF4084847406"
+			tasks: [{
+				id: "0A750277101E8548"
+				type: "item"
+				item: "tac:lpvo_1_6"
+			}]
+			rewards: [{
+				id: "6D03D8D841D4C9D0"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "46C3506321554C4E"
+			tasks: [{
+				id: "4A032D67B9C8E383"
+				type: "item"
+				item: "tac:eotech_short"
+			}]
+			rewards: [{
+				id: "2614F7608D448B67"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "59F2FC7BD90C2D68"
+			tasks: [{
+				id: "1891054C28DFEB32"
+				type: "item"
+				item: "tac:8x_scope"
+			}]
+			rewards: [{
+				id: "6402B1BD0C07F746"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "3DB601D0EF3CD33D"
+			tasks: [{
+				id: "2C24FBE9AFAB046D"
+				type: "item"
+				item: "tac:old_8x_scope"
+			}]
+			rewards: [{
+				id: "4E9597EFF5E021E3"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "0D7943D513166A8C"
+			tasks: [{
+				id: "0BC55025D16B7451"
+				type: "item"
+				item: "tac:basic_laser"
+			}]
+			rewards: [{
+				id: "2A5CD01640FC3367"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "257FFA80FA52097A"
+			tasks: [{
+				id: "5048A8417D0FF08D"
+				type: "item"
+				item: "tac:ir_laser"
+			}]
+			rewards: [{
+				id: "3E890140A352599F"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "6DF983EA75E94D3A"
+			tasks: [{
+				id: "3E436C29F90DA052"
+				type: "item"
+				item: "tac:specialised_grip"
+			}]
+			rewards: [{
+				id: "79104E3EB29E5FA1"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "47A01EAC6555EEC2"
+			tasks: [{
+				id: "2F3F4E7076222DDB"
+				type: "item"
+				item: "tac:light_grip"
+			}]
+			rewards: [{
+				id: "04F38B7C8DBD5749"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "4A1529F603D6A32F"
+			tasks: [{
+				id: "58E4F4ABF1EF801D"
+				type: "item"
+				item: "tac:weighted_stock"
+			}]
+			rewards: [{
+				id: "36B162B3BBBC139D"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "60C2466F8C558B35"
+			tasks: [{
+				id: "1A054631A6C657FF"
+				type: "item"
+				item: "tac:tactical_stock"
+			}]
+			rewards: [{
+				id: "11EC07EE5D4E5B9D"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "7EC5252F2DA8F069"
+			tasks: [{
+				id: "62847DF212A169C2"
+				type: "item"
+				item: "tac:light_stock"
+			}]
+			rewards: [{
+				id: "3E31DB0225453964"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "59A60B408A24DB50"
+			tasks: [{
+				id: "2EEC6F40AA463AF3"
+				type: "item"
+				item: "tac:pistol_silencer"
+			}]
+			rewards: [{
+				id: "4374AD06EAD9F835"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "7F9CB58F85F1337A"
+			tasks: [{
+				id: "3C98856FF28CCF88"
+				type: "item"
+				item: "tac:muzzle_compensator"
+			}]
+			rewards: [{
+				id: "0E12A6A0A5F2170E"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "5B5E9F8D0A4D77D1"
+			tasks: [{
+				id: "206C2C112CFFF364"
+				type: "item"
+				item: "tac:muzzle_brake"
+			}]
+			rewards: [{
+				id: "187CB6913FC997EF"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "45C18361F3191C81"
+			tasks: [{
+				id: "47EDFEE901DD10A9"
+				type: "item"
+				item: "tac:silencer"
+			}]
+			rewards: [{
+				id: "2E206A56439F7021"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "65DDDDB18F84DE1B"
+			tasks: [{
+				id: "79CB824D1C58613F"
+				type: "item"
+				item: "tac:small_extended_mag"
+			}]
+			rewards: [{
+				id: "598C3915B02FA671"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "2C649E51BDC06BF5"
+			tasks: [{
+				id: "715F4064F3C709D5"
+				type: "item"
+				item: "tac:medium_extended_mag"
+			}]
+			rewards: [{
+				id: "5D7716762976DD44"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["22377A90E0A417CB"]
+			hide: true
+			id: "062E6E878C628608"
+			tasks: [{
+				id: "1ED09D8A9A89EAFA"
+				type: "item"
+				item: "tac:large_extended_mag"
+			}]
+			rewards: [{
+				id: "49E48E23B03710EB"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.5d
+			dependencies: ["6B4E4C98AF390E29"]
+			id: "227F66F7E8BE7B17"
+			tasks: [{
+				id: "712A0476C7E29B5C"
+				type: "checkmark"
+				title: "传统防具"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			dependencies: ["6B4E4C98AF390E29"]
+			id: "0202DCD76569EED3"
+			tasks: [{
+				id: "3E656E810D9392F9"
+				type: "checkmark"
+				title: "防弹衣"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "58C5ADC13813E225"
+			tasks: [
+				{
+					id: "2FC5E4FE82E30399"
+					type: "item"
+					item: {
+						id: "zombie_extreme:juggernaut_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4EE247F213FC086E"
+					type: "item"
+					item: {
+						id: "zombie_extreme:juggernaut_suit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "61932A79BF4EB165"
+					type: "item"
+					item: {
+						id: "zombie_extreme:juggernaut_suit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "41AFF12FB1F8BB72"
+					type: "item"
+					item: {
+						id: "zombie_extreme:juggernaut_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "17A6C96C92B62EB7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+				{
+					id: "528AE044C175725A"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "0213E5AFE85F98BF"
+			tasks: [
+				{
+					id: "29F829E1CB2438E7"
+					type: "item"
+					item: {
+						id: "zombie_extreme:camouflage_suit_forest_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5E0274331D06A000"
+					type: "item"
+					item: {
+						id: "zombie_extreme:camouflage_suit_forest_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "611D1EE244B37C70"
+					type: "item"
+					item: {
+						id: "zombie_extreme:camouflage_suit_forest_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "019775BA54485868"
+					type: "item"
+					item: {
+						id: "zombie_extreme:camouflage_suit_forest_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5E6AE953A9897F77"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "18C5D317FBCDBFAF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "58DD65230778FD25"
+			tasks: [
+				{
+					id: "3754629871D93363"
+					type: "item"
+					item: {
+						id: "zombie_extreme:hazmat_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1B93CE11FCFC5166"
+					type: "item"
+					item: {
+						id: "zombie_extreme:hazmat_suit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3B1335593ADFAC3B"
+					type: "item"
+					item: {
+						id: "zombie_extreme:hazmat_suit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "58A84678ED635E44"
+					type: "item"
+					item: {
+						id: "zombie_extreme:hazmat_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "121A22E274D401CB"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "2D587B0FEA4DED0E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "7D7E97A86E2DA6B4"
+			tasks: [
+				{
+					id: "69C3D4F892611B73"
+					type: "item"
+					item: {
+						id: "zombie_extreme:swat_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5FA47B533C7613F5"
+					type: "item"
+					item: {
+						id: "zombie_extreme:swat_suit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1A0598CFBF1E7C8A"
+					type: "item"
+					item: {
+						id: "zombie_extreme:swat_suit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0124A389B72A5A31"
+					type: "item"
+					item: {
+						id: "zombie_extreme:swat_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "19CC2E719A038365"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "4607DB7571EC54DD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "510075537C3EE33F"
+			tasks: [
+				{
+					id: "1E6F8B6E2D15E7B4"
+					type: "item"
+					item: {
+						id: "zombie_extreme:military_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "199B9E812082D98A"
+					type: "item"
+					item: {
+						id: "zombie_extreme:military_suit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1225966F031017BC"
+					type: "item"
+					item: {
+						id: "zombie_extreme:military_suit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3B8B8832C0EBE3D3"
+					type: "item"
+					item: {
+						id: "zombie_extreme:military_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "113EA9D4CC532DF3"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "5F847F3F09A3AE78"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "3E4187738FFA242D"
+			tasks: [
+				{
+					id: "15027F99C3B24680"
+					type: "item"
+					item: {
+						id: "zombie_extreme:combat_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "60F576DE6F4CD830"
+					type: "item"
+					item: {
+						id: "zombie_extreme:combat_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4D53098B3F851106"
+					type: "item"
+					item: {
+						id: "zombie_extreme:combat_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "569A3E1556DB807E"
+					type: "item"
+					item: {
+						id: "zombie_extreme:combat_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "46B97A708BCBB316"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "1F84F48DD7AB9325"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "50539A67F01E210C"
+			tasks: [
+				{
+					id: "4204AC129C53DC6B"
+					type: "item"
+					item: {
+						id: "zombie_extreme:civilian_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "61171B6AE84C8A21"
+					type: "item"
+					item: {
+						id: "zombie_extreme:civilian_suit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "50D79E76B9EB7DE9"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "7A190C0A014C0CC4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "30604C6973959162"
+			tasks: [
+				{
+					id: "163F67713AA25C25"
+					type: "item"
+					item: {
+						id: "zombie_extreme:police_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7FA730543403CD2B"
+					type: "item"
+					item: {
+						id: "zombie_extreme:police_suit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0A2302EDC3EDBB51"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "5A23D7DFE3FA57E1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "19C7D3629D07E1AD"
+			tasks: [
+				{
+					id: "01995EF75EE7E2AC"
+					type: "item"
+					item: {
+						id: "zombie_extreme:gas_mask_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2B30FCCDC7B4ACAA"
+					type: "item"
+					item: {
+						id: "zombie_extreme:berret_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "68D21FFF7D324C69"
+					type: "item"
+					item: {
+						id: "zombie_extreme:night_vision_glasses_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+					only_from_crafting: false
+				}
+				{
+					id: "67D89B20752426CA"
+					type: "item"
+					item: {
+						id: "zombie_extreme:black_ops_glasses_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "79DB5A7053362826"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "400CCADF65FF0C82"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			title: "外骨骼装甲"
+			x: -11.0d
+			y: 3.5d
+			subtitle: "本整合包最强装甲"
+			hide_dependency_lines: true
+			dependencies: ["227F66F7E8BE7B17"]
+			id: "4136461BB6E01FB5"
+			tasks: [
+				{
+					id: "68D229F6F5D4231F"
+					type: "item"
+					item: {
+						id: "zombie_extreme:exo_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48525F0E4DDD689D"
+					type: "item"
+					item: {
+						id: "zombie_extreme:exo_suit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6664A41958699CC2"
+					type: "item"
+					item: {
+						id: "zombie_extreme:exo_suit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76138FE3D6D55B87"
+					type: "item"
+					item: {
+						id: "zombie_extreme:exo_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0BA7B673415752DB"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "4BB1922D1A9841AE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			subtitle: "良好的弹药储存地"
+			dependencies: [
+				"39DE19FF35AE917D"
+				"0202DCD76569EED3"
+			]
+			id: "53A0DC974E861E6E"
+			tasks: [{
+				id: "499C468231C8078B"
+				type: "item"
+				item: {
+					id: "tac:light_armor"
+					Count: 1b
+					tag: {
+						RigDurability: 50.0f
+					}
+					ForgeCaps: {
+						"tac:rig": [ ]
+						Parent: [ ]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1EA565AE0F6B2541"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.5d
+			subtitle: "增加保命次数"
+			dependencies: ["53A0DC974E861E6E"]
+			id: "23DEC5DD53C4CA3E"
+			tasks: [{
+				id: "273D0AAF46DB3072"
+				type: "item"
+				item: {
+					id: "tac:medium_steel_armor"
+					Count: 1b
+					tag: {
+						RigDurability: 110.0f
+					}
+					ForgeCaps: {
+						"tac:rig": [ ]
+						Parent: [ ]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C43A3B16FD5A0BB"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "640CCB1CF6A4A1EC"
+					type: "item"
+					item: "tac:light_armor_plate"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			subtitle: "防御远程武器攻击"
+			hide_dependency_lines: true
+			dependencies: ["0202DCD76569EED3"]
+			id: "39DE19FF35AE917D"
+			tasks: [{
+				id: "71EA5C2AC85EED94"
+				type: "item"
+				item: "tac:light_armor_plate"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "422BE8831E92B70F"
+				type: "item"
+				item: "tac:light_armor_plate"
+				count: 10
+			}]
+		}
+		{
+			title: "常规的很"
+			x: -9.0d
+			y: 9.5d
+			dependencies: ["4FFD316C2933C5C6"]
+			id: "7E1EC43D3D89BC3A"
+			tasks: [{
+				id: "1487A21CCDBB3D44"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 100
+			}]
+			rewards: [{
+				id: "2498EFC5AA7DA01C"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			title: "小试牛刀"
+			x: -11.0d
+			y: 9.5d
+			id: "4FFD316C2933C5C6"
+			tasks: [{
+				id: "2BB6258982BAE977"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 1
+			}]
+			rewards: [{
+				id: "13680A691E7C18C1"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			title: "或许很正常？"
+			x: -7.0d
+			y: 9.5d
+			dependencies: ["7E1EC43D3D89BC3A"]
+			id: "7BFC3A98A5B90645"
+			tasks: [{
+				id: "7F7321082A90E6B6"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 1000
+			}]
+			rewards: [{
+				id: "115AC43BBCA37BA6"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			title: "为了生存而迫不得已？"
+			x: -5.0d
+			y: 9.5d
+			dependencies: ["7BFC3A98A5B90645"]
+			id: "7B5980CF73FAB504"
+			tasks: [{
+				id: "494AD092F03FFB87"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 10000
+			}]
+			rewards: [{
+				id: "2A5F431B52D05F49"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			title: "停手吧，末日不该这样"
+			x: -3.0d
+			y: 9.5d
+			dependencies: ["7B5980CF73FAB504"]
+			id: "22D3C85135CC8F37"
+			tasks: [{
+				id: "30820554543C13CB"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 100000
+			}]
+			rewards: [{
+				id: "7F290DA6CEBDC5A4"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			title: "刀尖全是。。血"
+			x: -1.0d
+			y: 9.5d
+			subtitle: "回眸一望，身后一切都是血做的"
+			dependencies: ["22D3C85135CC8F37"]
+			id: "2AF71095BC8AB628"
+			tasks: [{
+				id: "608C3573A55A4509"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 1000000
+			}]
+			rewards: [
+				{
+					id: "2BDB40FFBC43D596"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 60
+				}
+				{
+					id: "2DEF9778B4ACE557"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "47B887C25FED2CE1"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 10
+				}
+				{
+					id: "30DC600AA9043F47"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "4BD77551D7682F6B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6437349947996719416L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 11.0d
+			subtitle: "死不掉5.0"
+			dependencies: ["613F1415673BEB75"]
+			id: "62CB33FE4A38E715"
+			tasks: [{
+				id: "66B69CFA0D41BEE4"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 1000
+			}]
+			rewards: [
+				{
+					id: "3053E26A06420F3D"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "3C545F7C961DB1E6"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			subtitle: "打不死的__6.0"
+			dependencies: ["62CB33FE4A38E715"]
+			id: "6756ED23B52BB7BA"
+			tasks: [{
+				id: "63CFC2559FC81823"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 5000
+			}]
+			rewards: [
+				{
+					id: "7D4E3DD810A5E4A1"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "007DB5632F2674D4"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 60
+				}
+				{
+					id: "6763A968BB4D34AC"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 10
+				}
+				{
+					id: "5EE5B5835AA111F3"
+					type: "item"
+					item: "quark:gunpowder_sack"
+					count: 32
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 11.0d
+			subtitle: "不死4.0"
+			dependencies: ["19FA099C84E28A59"]
+			id: "613F1415673BEB75"
+			tasks: [{
+				id: "309CB9A97903CCB8"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 500
+			}]
+			rewards: [
+				{
+					id: "4BF3095DF4A21624"
+					type: "item"
+					item: "rpg_tag:bigexbook"
+					count: 10
+				}
+				{
+					id: "3FBB243A9B2AFE29"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			id: "7506DD1050129C52"
+			tasks: [{
+				id: "760E4BD53C0F23E4"
+				type: "item"
+				item: {
+					id: "tac:tec_9"
+					Count: 1b
+					tag: {
+						AmmoCount: 10
+						CurrentFireMode: 2
+						level: 1
+						supportedFireModes: [I;2]
+						ID: [I;
+							-1770099955
+							-2006302155
+							-1489664481
+							1569598693
+						]
+						levelDmg: 0.0f
+					}
+				}
+			}]
+			rewards: [{
+				id: "04E13AFE2A575C5A"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "0D5796BCD6808E8B"
+			tasks: [{
+				id: "7DBD7A5C0F72EEC4"
+				type: "item"
+				item: {
+					id: "tac:colt_python"
+					Count: 1b
+					tag: {
+						AmmoCount: 6
+						CurrentFireMode: 1
+						level: 1
+						supportedFireModes: [I;1]
+						ID: [I;
+							1556609751
+							-1323874437
+							-1170568782
+							-613176919
+						]
+						levelDmg: 0.0f
+					}
+				}
+			}]
+			rewards: [{
+				id: "5228F9712992F1ED"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3D5F3037D441FA2F"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "05819DBC2AD7DA3A"
+			tasks: [{
+				id: "76F4BA84EFCCE6C9"
+				type: "item"
+				item: {
+					id: "tac:db_short"
+					Count: 1b
+					tag: {
+						AmmoCount: 2
+						CurrentFireMode: 1
+						level: 1
+						supportedFireModes: [I;1]
+						ID: [I;
+							-1145513065
+							-2107227480
+							-2131920445
+							-1109094789
+						]
+						levelDmg: 551.2401f
+					}
+				}
+			}]
+			rewards: [{
+				id: "09525D1482700575"
+				type: "item"
+				item: "rpg_tag:bigexbook"
+				count: 10
+			}]
+		}
+	]
+	quest_links: [ ]
+}

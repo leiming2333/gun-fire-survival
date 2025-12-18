@@ -1,0 +1,139 @@
+{
+	id: "430A16553711C97D"
+	order_index: 2
+	title: "枪械附魔书"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			title: "恨的连点"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "tac:trigger_finger"
+					}]
+				}
+			}
+		}
+		{
+			title: "举重若轻 "
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "tac:lightweight"
+					}]
+				}
+			}
+		}
+		{
+			title: "贯虱穿杨"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "tac:collateral"
+					}]
+				}
+			}
+		}
+		{
+			title: "亚空间扩容"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "tac:over_capacity"
+					}]
+				}
+			}
+		}
+		{
+			title: "节约风气"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "tac:reclaimed"
+					}]
+				}
+			}
+		}
+		{
+			title: "加速膛线"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "tac:accelerator"
+					}]
+				}
+			}
+		}
+		{
+			title: "正中要害"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "tac:puncturing"
+					}]
+				}
+			}
+		}
+		{
+			title: "纵火狂"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "tac:fire_starter"
+					}]
+				}
+			}
+		}
+		{
+			title: "改进膛线"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "tac:rifling"
+					}]
+				}
+			}
+		}
+		{
+			title: "缓冲后坐"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "tac:buffered"
+					}]
+				}
+			}
+		}
+	]
+}

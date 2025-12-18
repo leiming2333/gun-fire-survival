@@ -1,0 +1,15 @@
+{
+	id: "72C1508B48E44B6C"
+	order_index: 4
+	title: "矿块"
+	icon: "minecraft:chest"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "minecraft:iron_block", count: 32 }
+		{ item: "minecraft:gold_block", count: 32 }
+		{ item: "minecraft:diamond_block", count: 16 }
+		{ item: "minecraft:netherite_block", count: 8 }
+		{ item: "minecraft:gunpowder", count: 64 }
+	]
+}

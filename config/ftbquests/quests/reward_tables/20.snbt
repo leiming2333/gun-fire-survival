@@ -1,0 +1,19 @@
+{
+	id: "59560FABD1394938"
+	order_index: 6
+	title: "抽奖2.0"
+	icon: "minecraft:netherite_ingot"
+	loot_size: 1
+	rewards: [
+		{ item: "quark:gunpowder_sack", count: 10, weight: 76 }
+		{ item: "minecraft:iron_block", count: 16, weight: 54 }
+		{ item: "minecraft:oak_log", count: 64, weight: 29 }
+		{ item: "minecraft:netherite_scrap", weight: 2 }
+		{ item: "minecraft:diamond_block", weight: 4 }
+		{ item: "minecraft:rotten_flesh", count: 64, weight: 31 }
+		{ item: "rpg_tag:bigexbook", count: 10, weight: 14 }
+		{ item: "minecraft:experience_bottle", count: 10, weight: 5 }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:rotten_flesh", weight: 85 }
+	]
+}

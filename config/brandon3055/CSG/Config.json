@@ -1,0 +1,16 @@
+{
+  "inventory": {
+    "0:3": "{Count:16b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}}",
+    "0:2": "{Count:32b,id:\"minecraft:bread\"}",
+    "0:5": "{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"rpg_tag:rpgtagbook\"}}",
+    "0:1": "{Count:1b,id:\"zombie_extreme:machete\",tag:{Damage:0}}",
+    "0:10": "{Count:30b,id:\"tac:9mm_round\"}",
+    "0:6": "{Count:1b,id:\"rpg_tag:yiwangshui_1\"}",
+    "0:11": "{Count:1b,id:\"minecraft:campfire\"}",
+    "0:4": "{Count:1b,id:\"ftbquests:book\"}",
+    "0:9": "{Count:1b,id:\"minecraft:chest\",tag:{BlockEntityTag:{CustomName:'{\"text\":\"²¹¸øÏä\"}',Items:[{Count:30b,Slot:0b,id:\"tac:9mm_round\"},{Count:30b,Slot:1b,id:\"tac:9mm_round\"},{Count:30b,Slot:2b,id:\"tac:9mm_round\"},{Count:30b,Slot:3b,id:\"tac:9mm_round\"},{Count:30b,Slot:4b,id:\"tac:9mm_round\"},{Count:30b,Slot:5b,id:\"tac:9mm_round\"},{Count:30b,Slot:6b,id:\"tac:9mm_round\"},{Count:30b,Slot:7b,id:\"tac:9mm_round\"},{Count:30b,Slot:8b,id:\"tac:9mm_round\"},{Count:16b,Slot:9b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:16b,Slot:10b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:16b,Slot:11b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:16b,Slot:12b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:16b,Slot:13b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:16b,Slot:14b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:16b,Slot:15b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:16b,Slot:16b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:16b,Slot:17b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",Purity:3}},{Count:32b,Slot:18b,id:\"minecraft:bread\"},{Count:32b,Slot:19b,id:\"minecraft:bread\"},{Count:32b,Slot:20b,id:\"minecraft:bread\"},{Count:32b,Slot:21b,id:\"minecraft:bread\"},{Count:32b,Slot:22b,id:\"minecraft:bread\"},{Count:32b,Slot:23b,id:\"minecraft:bread\"},{Count:32b,Slot:24b,id:\"minecraft:bread\"},{Count:32b,Slot:25b,id:\"minecraft:bread\"},{Count:32b,Slot:26b,id:\"minecraft:bread\"}],id:\"minecraft:chest\"},display:{Lore:['\"(+NBT)\"']}}}",
+    "0:0": "{Count:1b,id:\"tac:glock_18\",tag:{AmmoCount:17,Attachments:{Extended_Mag:{Count:1b,id:\"tac:medium_extended_mag\"},PistolBarrel:{Count:1b,id:\"tac:pistol_silencer\"},PistolScope:{Count:1b,id:\"tac:mini_dot\"},Side_Rail:{Count:1b,id:\"tac:basic_laser\"}},CurrentFireMode:2,ID:[I;-219076753,-1286452376,-1134086661,-1997426411],level:1,levelDmg:79.86533f,supportedFireModes:[I;2,1]}}",
+    "0:12": "{Count:1b,id:\"rpg_tag:fubenzhishi\"}"
+  },
+  "wipeBlacklist": []
+}

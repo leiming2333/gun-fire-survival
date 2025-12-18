@@ -1,0 +1,5 @@
+craftingTable.addShaped("enchanted_golden_apple",<item:minecraft:enchanted_golden_apple>,[
+    [<item:minecraft:gold_block>,<item:minecraft:gold_block>,<item:minecraft:gold_block>],
+    [<item:minecraft:gold_block>,<item:minecraft:apple>,<item:minecraft:gold_block>],
+    [<item:minecraft:gold_block>,<item:minecraft:gold_block>,<item:minecraft:gold_block>]]
+);

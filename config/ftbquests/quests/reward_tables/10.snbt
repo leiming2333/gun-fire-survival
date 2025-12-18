@@ -1,0 +1,17 @@
+{
+	id: "4F057B4AF01FA12F"
+	order_index: 5
+	title: "抽奖1.0"
+	icon: "quark:diamond_heart"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:gunpowder", count: 32, weight: 50 }
+		{ item: "minecraft:iron_ingot", count: 16, weight: 35 }
+		{ item: "minecraft:diamond", count: 10 }
+		{ item: "rpg_tag:bigexbook", weight: 35 }
+		{ item: "minecraft:rotten_flesh", count: 16, weight: 50 }
+		{ item: "minecraft:rotten_flesh", weight: 65 }
+		{ item: "minecraft:cooked_beef", count: 16, weight: 20 }
+		{ item: "minecraft:oak_log", count: 32, weight: 10 }
+	]
+}

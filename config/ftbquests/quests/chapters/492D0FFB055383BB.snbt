@@ -1,0 +1,29 @@
+{
+	id: "492D0FFB055383BB"
+	group: ""
+	order_index: 0
+	filename: "492D0FFB055383BB"
+	title: "设置"
+	icon: "minecraft:bedrock"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		can_repeat: true
+		id: "4F1F6AE8CC9854EF"
+		tasks: [{
+			id: "286FF24B7D56E8F8"
+			type: "checkmark"
+			title: "死亡不掉落？"
+		}]
+		rewards: [{
+			id: "64DCF4F2B66A9521"
+			type: "choice"
+			team_reward: false
+			exclude_from_claim_all: true
+			table_id: 4160390057779004527L
+		}]
+	}]
+	quest_links: [ ]
+}

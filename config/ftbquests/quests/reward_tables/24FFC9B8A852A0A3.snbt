@@ -1,0 +1,23 @@
+{
+	id: "24FFC9B8A852A0A3"
+	order_index: 0
+	title: "奖励子弹"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "tac:round45", count: 30 }
+		{ item: "tac:ae50", count: 30 }
+		{ item: "tac:win_30-30", count: 30 }
+		{ item: "tac:bullet_308", count: 30 }
+		{ item: "tac:nato_556_bullet", count: 30 }
+		{ item: "tac:9mm_round", count: 30 }
+		{ item: "tac:10_gauge_round", count: 30 }
+		{ item: "tac:58x42", count: 30 }
+		{ item: "tac:762x25", count: 30 }
+		{ item: "tac:762x54", count: 30 }
+		{ item: "tac:762x39", count: 30 }
+		{ item: "tac:50bmg", count: 30 }
+		{ item: "tac:lapua338", count: 30 }
+		{ item: "tac:bullet68", count: 30 }
+	]
+}

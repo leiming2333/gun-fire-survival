@@ -1,0 +1,21 @@
+{
+	id: "39BCACB700FC046F"
+	order_index: 7
+	title: "选择"
+	icon: "minecraft:ghast_tear"
+	loot_size: 1
+	rewards: [
+		{
+			title: "死亡不掉落"
+			icon: "minecraft:grass_block"
+			command: "/gamerule keepInventory true"
+			type: "command"
+		}
+		{
+			title: "死亡掉落"
+			icon: "minecraft:bone"
+			command: "/gamerule keepInventory false"
+			type: "command"
+		}
+	]
+}

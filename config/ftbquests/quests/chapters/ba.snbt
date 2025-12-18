@@ -1,0 +1,209 @@
+{
+	id: "33FA7A9E6978EB6B"
+	group: "516AB295B324E9B4"
+	order_index: 0
+	filename: "ba"
+	title: "旗帜"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 5.5d
+			y: -1.5d
+			id: "2069E0582F168FA5"
+			tasks: [{
+				id: "26439D54319DD25A"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_abydos"
+			}]
+			rewards: [{
+				id: "10B6ECAA0BE16DD5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			id: "671D529559EBA3B1"
+			tasks: [{
+				id: "79C86ED068E65BC4"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_arius"
+			}]
+			rewards: [{
+				id: "5A1DDF12D1A7A018"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			id: "6BF17140132BD7C0"
+			tasks: [{
+				id: "549BF3FDF17BD68D"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_gehenna"
+			}]
+			rewards: [{
+				id: "62C8BE8BF046CC2B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 18.0d
+			y: -1.5d
+			id: "286FBEB01CCC5A81"
+			tasks: [{
+				id: "3E21CC8385C1FE73"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_hyakkiyako"
+			}]
+			rewards: [{
+				id: "1FC9214344E1293C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 18.0d
+			y: 8.0d
+			dependencies: ["286FBEB01CCC5A81"]
+			id: "77C02C1E4E166AFA"
+			tasks: [{
+				id: "5D5AA63BE8722ED6"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_hyakkiyako_fire"
+			}]
+			rewards: [{
+				id: "01ACC480B3EEE852"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "29695A246B6F3060"
+			tasks: [{
+				id: "49024D53FE09A091"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_millennium"
+			}]
+			rewards: [{
+				id: "37ED494BE8FC7261"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			id: "32118517652E6F7B"
+			tasks: [{
+				id: "3F827BB89ED5339F"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_red_winter"
+			}]
+			rewards: [{
+				id: "70EAB2DAFD21E58E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: 8.0d
+			dependencies: ["32118517652E6F7B"]
+			id: "1B333A9D00F1EA2D"
+			tasks: [{
+				id: "45545C3AE1408D9B"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_red_winter_bg"
+			}]
+			rewards: [{
+				id: "6BF8993508AB8814"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			id: "055B5E942A4D8DAA"
+			tasks: [{
+				id: "124912AC4B360C86"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_schale"
+			}]
+			rewards: [{
+				id: "71111600EC43D354"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			id: "00AC4A2807ACE73B"
+			tasks: [{
+				id: "1342658B3BD4E47B"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_shanhaijing"
+			}]
+			rewards: [{
+				id: "5A75B9166B92AAC5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			id: "23B3B43907248BFB"
+			tasks: [{
+				id: "32DA3A041749BD10"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_srt"
+			}]
+			rewards: [{
+				id: "66339C01C4955033"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.5d
+			id: "794C9095D314B77F"
+			tasks: [{
+				id: "7D76001C30A00DE8"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_trinity"
+			}]
+			rewards: [{
+				id: "00BDB0E8B9A4D39A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			id: "6F2FBD65BE0B87EC"
+			tasks: [{
+				id: "1F35EADAC21B1624"
+				type: "item"
+				item: "minecraftbluearchivebanner:blue_archive_valkyrie"
+			}]
+			rewards: [{
+				id: "43FB3547145AED66"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+	quest_links: [ ]
+}
